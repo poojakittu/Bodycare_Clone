@@ -8,7 +8,7 @@ const Navbar=()=>{
         <Text fontSize={['md']}>Today only! Online only! Get 2 FREE gifts with any purchase + FREE shipping on $50 order</Text>
             
         </Box>
-        <Box w={["0",'20%','40%']} h={['0','60px','40px']}bg='#4d88bd' ></Box>
+        <Box w={["0",'0','40%']} h={['0','60px','40px']}bg='#4d88bd' ></Box>
          </Stack>  
     </>)
 
