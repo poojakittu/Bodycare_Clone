@@ -1,11 +1,11 @@
 import {  Image,Box ,Stack,Text,Input,InputGroup,InputLeftElement} from '@chakra-ui/react'
-import { useState } from 'react';
+
 import { BsSearch } from "react-icons/bs";
 import { AiOutlineShoppingCart } from "react-icons/ai";
 import { CgGirl } from "react-icons/cg";
 import "./styles.css";
 const N1=()=>{
-    const[loading,setloading]=useState(true)
+   
     return(<>
   
     
@@ -32,7 +32,7 @@ const N1=()=>{
 
         <Box  w={["0","20%","40%"]}   m={["0","-45px","50px"]} ml={["450","300","1100"]} display="flex">
         <InputGroup>
-            <Input type='tel' placeholder='Search Products and Items' w="50%"/>
+            <Input type='tel' placeholder='Search Products and Items' w="48%"/>
             <InputLeftElement
             pointerEvents='none'
             children={<BsSearch />}
