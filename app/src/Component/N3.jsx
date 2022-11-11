@@ -45,7 +45,7 @@ const N3=()=>{
          <NavLink
             style={({isActive})=>{
                 return isActive ? activeStyle:defaultStyle;
-            }}  key="/top" to="TOP OFFERS"
+            }}  key="/home" to="Home"
             >
                 <Box>HOME</Box>
                 

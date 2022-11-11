@@ -177,3 +177,7 @@ body {
   transform: rotate(-45deg);
   -webkit-transform: rotate(-45deg);
 }
+.vl{
+  border-left: 1px solid rgb(2, 2, 5);
+  height: 500px;
+}

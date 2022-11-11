@@ -1,4 +1,4 @@
-import {  Image,Box ,Stack,Text} from '@chakra-ui/react'
+import {  Box ,Stack,Text} from '@chakra-ui/react'
 
 const Navbar=()=>{
     return(<>

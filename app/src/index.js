@@ -9,12 +9,19 @@ import{BrowserRouter} from "react-router-dom"
 
 // 1. import `ChakraProvider` component
 import { ChakraProvider } from '@chakra-ui/react'
+import AuthContextProvider from './Context/AuthContextProvider';
+import CartContextProvider from "./Context/CartContext/CartContextProvider";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter>
  <ChakraProvider>
+ <AuthContextProvider>
+ <CartContextProvider>
+
    <App />
+   </CartContextProvider>
+ </AuthContextProvider>
 
  </ChakraProvider>
   </BrowserRouter>
