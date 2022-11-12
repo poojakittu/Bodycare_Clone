@@ -171,6 +171,7 @@ const Candle = () => {
                       Add To Cart
                     </Button>
                   </Flex>
+                  
                 </GridItem>
               </Grid>
             </Box>
