@@ -8,4 +8,7 @@ export const loginSuccessAction = () => ({
 export const loginFailureAction = () => ({
     type: "LOGIN_FAILURE",
   });
+  export const logoutACTION = () => ({
+    type: "LOGOUT_SUCCESS",
+  });
   

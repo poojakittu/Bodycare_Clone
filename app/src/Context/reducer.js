@@ -10,10 +10,10 @@ const reducer = (state, action) => {
       }
       case "LOGIN_SUCCESS": {
         return {
-          isLoading: false,
+          isLoading: true,
           isAuth: true,
           token: action.payload,
-          isError: false,
+          isError: true,
         };
       }
       case "LOGIN_FAILURE": {
@@ -22,6 +22,14 @@ const reducer = (state, action) => {
             isAuth: false,
             token: "",
             isError: true,
+          };
+        }
+        case "LOGOUT_SUCCESS": {
+          return {
+            isLoading: false,
+            isAuth: false,
+            token: "",
+            isError: false,
           };
         }
       default: {
