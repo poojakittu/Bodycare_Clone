@@ -3,6 +3,7 @@ import {Box,GridItem,Grid,Image,Heading,Button,
 import { useState } from "react";
 import "./styles.css";
 import React from "react";
+import{Link, NavLink} from "react-router-dom";
 const initState = {
     email: "",
     reemail: "",
@@ -96,7 +97,8 @@ const Signup=()=>{
                 <Button  onClick={handleClick}>
                 {show ? 'Hide' : 'Show'}
                 </Button>
-        <Button marginTop="35px" bg="black" color="white" padding="25px" type="submit" onClick={handleSubmit}>SIGN UP</Button>   
+                <NavLink key="/Signin" to="Signin"><Button marginTop="35px" bg="black" color="white" padding="25px" type="submit" onClick={handleSubmit}>SIGN UP</Button>   
+                </NavLink>
         </FormControl>
 
         </Box>

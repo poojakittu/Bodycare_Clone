@@ -3,6 +3,7 @@ import {Box,GridItem,Grid,Image,Heading,Text,Button,
 import "./styles.css";
 import React from "react"
 import { useState, useContext } from "react";
+import{NavLink} from "react-router-dom";
 import {
   loginFailureAction,
   loginSuccessAction,
@@ -10,10 +11,12 @@ import {
 } from "../Context/action"
 import { AuthContext } from "../Context/AuthContextProvider";
 import axios from "axios";
+import { Navigate,Link } from "react-router-dom";
 // import { Navigate } from "react-router-dom";
 const Signin=()=>{
     const { state, dispatch } = useContext(AuthContext);
     const [show, setShow] = React.useState(false)
+    const[go,setGo]=useState(false)
 
   const handleClick = () => setShow(!show)
   const [loginDetails, setLoginDetails] = useState({
@@ -42,7 +45,7 @@ const Signin=()=>{
       });
   };
 
-  
+ 
 
   if (state.isError) {
     return (
@@ -133,10 +136,11 @@ const Signin=()=>{
             <Box className="vl" marginLeft="200px"></Box>
         
         <GridItem w='100%' >
-        <Text fontSize="lg">SIGNUP</Text>
+            <Text fontSize="lg">SIGNUP</Text>
             <Text fontSize="md" marginTop="15px"marginBottom="15px">Create an account to access the best of your favorite store</Text>
             <Image  margin="auto" src="https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.219/on/demandware.static/-/Sites-BathAndBodyWorks-Library/default/dw0f47b7b9/images/loyalty/boc-launch-prospects_lacb_0.jpg?yocs=s_" alt="abc"/>
-            <Button marginTop="15px" bg="black" color="white" padding="25px">CREATE AN ACCOUNT</Button>
+            <NavLink key="/Signup" to="Signup"><Button marginTop="15px" bg="black" color="white" padding="25px">CREATE AN ACCOUNT</Button>
+            </NavLink>
         </GridItem>
         </Grid>
 
