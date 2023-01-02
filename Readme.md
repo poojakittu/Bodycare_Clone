@@ -20,7 +20,7 @@ Body care website designed just for you by a professional designer. Need ideas? 
 
 Deployed with netlify app 
 ```
-https://kind-meal.netlify.app/
+bmmbmn.netlify.app/
  ```
 
 ### <u>Run Locally</u>
@@ -57,7 +57,7 @@ go to http://localhost:3000
 
  
  Click the link to view project: 
- <a href="bmmbmn.netlify.app/">Kind-Meal</a>
+ <a href="bmmbmn.netlify.app/">Body Cares</a>
   
 ## Lessons Learned
 
