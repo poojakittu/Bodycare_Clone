@@ -1,8 +1,7 @@
-# Kind-Meal
-KindMeal.my is Malaysia's leading meat-free lifestyle platform, indulging you with delicious discounted vegetarian meals to save animals, health.
+# Body Cares
+Body care website designed just for you by a professional designer. Need ideas? We’ve collected some amazing examples of skin care websites from our global community of designers. Get inspired and start planning the perfect skin care web design today.
 
-
-<a href="https://kind-meal.netlify.app//">![Logo](https://www.kindmeal.my/photos/deal/5/518-3788-m.jpg)</a>
+<a href="bmmbmn.netlify.app/">![Logo](https://themeforest.img.customer.envatousercontent.com/files/305965079/Gilkan-Preview-Images/01_Gilkan_Homepage.jpg?auto=compress%2Cformat&fit=crop&crop=top&w=590&h=300&s=48b792e0eddea1d407568326a0199445)</a>
 ## Technologies Used
 
 #### Tech Stack-
@@ -58,7 +57,7 @@ go to http://localhost:3000
 
  
  Click the link to view project: 
- <a href="https://kind-meal.netlify.app/">Kind-Meal</a>
+ <a href="bmmbmn.netlify.app/">Kind-Meal</a>
   
 ## Lessons Learned
 
