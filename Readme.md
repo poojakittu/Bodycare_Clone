@@ -57,7 +57,7 @@ go to http://localhost:3000
 
  
  Click the link to view project: 
- <a href="bmmbmn.netlify.app/">Body Cares</a>
+ <a href="https://bmmbmn.netlify.app/">Body Cares</a>
   
 ## Lessons Learned
 
